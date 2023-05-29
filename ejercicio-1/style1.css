@@ -1,0 +1,13 @@
+* {
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+p {
+  color: #808;
+  font-size: 1.5rem;
+}
+
+.orange-text {
+  color: #f90;
+}
