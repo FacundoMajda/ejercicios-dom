@@ -1,0 +1,65 @@
+body {
+  background: #000;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: "Anonymous Pro", monospace;
+}
+
+main {
+  max-width: 400px;
+
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: #575757;
+}
+
+.title {
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+select {
+  padding: 0.5em;
+  margin-top: 0.5em;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #4c5eaf;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e468e;
+}
+
+p#resultado {
+  margin-top: 1em;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

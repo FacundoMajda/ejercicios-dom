@@ -1,6 +1,6 @@
-const cardContainer = document.getElementById("card-container");
+let cardContainer = document.getElementById("card-container");
 
-const data = [
+let data = [
   {
     title: "Artículo 1",
     description:
@@ -22,16 +22,16 @@ const data = [
 ];
 
 data.forEach((item) => {
-  const card = document.createElement("div");
+  let card = document.createElement("div");
   card.classList.add("card");
 
-  const title = document.createElement("h2");
+  let title = document.createElement("h2");
   title.textContent = item.title;
 
-  const description = document.createElement("p");
+  let description = document.createElement("p");
   description.textContent = item.description;
 
-  const image = document.createElement("img");
+  let image = document.createElement("img");
   image.src = item.image;
 
   card.appendChild(title);
